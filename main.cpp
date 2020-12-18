@@ -61,6 +61,7 @@ int main(int argc, char **argv){
         s.sortAll(fileName);
       }
     }
+    //sorts numbers from a given file
     else if(choice == 3){
       cout << "Enter the file name: " << endl;
       getline(cin, fileName);
@@ -70,6 +71,7 @@ int main(int argc, char **argv){
         cout << endl;
       }
     }
+    //exits the program
     else if(choice == 4){
       cout << "All done.\n" << endl;
     }
